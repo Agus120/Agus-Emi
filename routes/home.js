@@ -1,4 +1,4 @@
-const fs = require(`fs`);
+/* const fs = require(`fs`);
 
 let homePage = {
 
@@ -31,4 +31,12 @@ let homePage = {
     }
 }
 
-module.exports = homePage;
+module.exports = homePage; */
+const express = require('express');
+const router = express.Router();
+
+const homeController = require('../controller/homeController')
+
+router.get('/', homeController.index)
+
+module.exports = router
