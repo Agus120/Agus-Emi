@@ -1,12 +1,20 @@
 {
-  "name": "AgusEmi",
+  "name": "agusemi",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agus120/Agus-Emi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Agus120/Agus-Emi/issues"
+  },
+  "homepage": "https://github.com/Agus120/Agus-Emi#readme",
+  "description": ""
 }
